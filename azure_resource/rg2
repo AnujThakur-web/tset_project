@@ -1,0 +1,15 @@
+resource "azurerm_resource_group" "RG"
+name = "string"
+location ="string"
+
+resource "azurerm_resource_group" "RG"
+name = "rg-devo"
+location ="eastus"
+
+resource "azurerm_resource_group" "RG"
+name = "rg-kalu"
+location ="eastus"
+
+resource "azurerm_resource_group" "RG"
+name = "rg-pila"
+location ="eastus"
